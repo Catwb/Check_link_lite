@@ -37,7 +37,6 @@ jobs:
             python main.py
         
             - name: upload files
-          uses: actions/upload-artifact@v4
           with:
             name: Latest Font file
             path: ${{ github.workspace }}/status.txt
